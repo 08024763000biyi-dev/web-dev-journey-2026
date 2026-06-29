@@ -1,18 +1,24 @@
-# Code Magazine Project
+# HTML Foundations Practice
 
-Welcome to the documentation for the Code Magazine project. This project is a foundational exercise in structuring HTML content and managing project assets.
+Welcome to my HTML learning sandbox! This repository is where I am documenting my progress in learning the fundamental language of the web.
 
-## 🎯 Project Goal
-To build a static magazine layout using semantic HTML, ensuring proper document structure and clear folder hierarchy.
+## 🚀 Purpose
+The goal of this project is to get hands-on experience with core HTML elements, structure, and semantic tagging.
 
-## 💡 Key Learnings
-* **Semantic HTML:** Using tags like `<header>`, `<main>`, `<article>`, and `<footer>` instead of just using `<div>` for everything.
-* **Folder Management:** Learned how to structure a project with separate folders (e.g., `/images`) to keep assets organized.
-* **Git Workflow:** Practiced branching (`sandbox` vs `main`) and taking snapshots (commits) to track progress.
+## 🧠 Concepts Learned
+During this session, I practiced:
 
-## 🛠 Tech Stack
-* HTML5
+- **Headings**: Understanding the hierarchy from `<h1>` (most important) to `<h6>` (least important).
+- **Inline Formatting**: Exploring the difference between:
+    - **Presentational tags**: `<b>` and `<i>` (purely visual).
+    - **Semantic tags**: `<strong>` and `<em>` (adds meaning and importance for screen readers and SEO).
+- **Lists**: Organizing content using:
+    - **Ordered Lists (`<ol>`)**: For sequential items.
+    - **Unordered Lists (`<ul>`)**: For bulleted items.
 
-## 📝 Status
-* **Current Phase:** Building layout structure.
-* **Next Steps:** Refining the semantic structure and adding initial styling content.
+## 📂 Project Structure
+- `index.html`: The main file containing all practice elements.
+
+## 🛠 How to View
+1. Clone this repository to your local machine.
+2. Open `index.html` in any web browser to see the result.
