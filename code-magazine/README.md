@@ -12,7 +12,6 @@ The Code Magazine is a simple, clean, and semantic HTML layout. My goal for this
 ## Project Preview
 ![Code Magazine Banner](images/code%20magazine.png)
 
-*Tip: To insert an image, create a folder named `images`, put your file inside, and update the path above!*
 
 ## Technologies Used
 - HTML5
