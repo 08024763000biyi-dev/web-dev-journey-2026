@@ -3,20 +3,25 @@
 Welcome to my first web development project! This project focuses on mastering the fundamentals of HTML structure and semantics.
 
 ## Project Description
-The Code Magazine is a simple, clean, and semantic HTML layout. My goal for this project was to practice:
-- Building a proper HTML5 document structure.
-- Using semantic tags like `<header>`, `<main>`, and `<article>`.
-- Organizing content with ordered (`<ol>`) and unordered (`<ul>`) lists.
-- Using emphasis tags (`<strong>`) to highlight key information.
+The Code Magazine is a simple, clean, and semantic HTML layout. 
 
-## Project Preview
-![Code Magazine Banner](images/code%20magazine.png)
+## 🖼️ Project Preview
 
+**Header & Main Content:**
+![Code Magazine Header](images/code%20magazine%20preview%201.jpg)
+
+**Footer & Copyright:**
+![Code Magazine Footer](images/code%20magazine%20preview%202.jpg)
+
+## Key Features
+- **Semantic HTML5 Structure**: Uses `<header>`, `<article>`, `<aside>`, and `<footer>` tags for better accessibility and SEO.
+- **Content Organization**: Implemented ordered and unordered lists, and proper heading hierarchy.
+- **External & Internal Linking**: Includes navigation between pages and secure external links using `target="_blank"`.
+- **Media**: Integrated images with descriptive `alt` tags.
 
 ## Technologies Used
 - HTML5
 
 ## Future Improvements
 - [ ] Add CSS to style the layout and colors.
-- [ ] Add images to make the magazine more visually appealing.
-- [ ] Link the navigation items to new pages.
+- [ ] Implement responsive design using Media Queries.

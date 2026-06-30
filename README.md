@@ -13,21 +13,23 @@ Welcome to my coding log! This repository serves as a documentation of my journe
 
 Here are the projects I have built during my journey:
 
-- **[Code Magazine](code-magazine/)**: A semantic HTML structure project exploring tags like `<header>`, `<main>`, `<article>`, and correct heading hierarchy.
+- **[Code Magazine](code-magazine/)**: ✅ Completed - A semantic HTML structure project exploring tags like `<header>`, `<main>`, `<article>`, and correct heading hierarchy.
 
 ## 📅 Progress Log
 
-| Date       | Topic/Module      | Key Concepts Learned                                            |
+| Date       | Topic/Module      | Key Concepts Learned                                             |
 | :--------- | :---------------- | :-------------------------------------------------------------- |
-| 2026-06-29 | Git Workflow      | Branching, renaming, staging (`git add`), and pushing to remote |
-| 2026-06-29 | Semantic HTML     | Structure (`header`, `main`, `footer`) vs Presentational tags   |
-| 2026-06-29 | Documentation     | Creating `README.md`, image linking, and repo organization      |
-| 2026-06-28 | Environment Setup | Initialized GitHub repo, VS Code setup, Git workflow            |
-| 2026-06-28 | HTML Basics       | Created index.html and added first content                      |
+| 2026-06-30 | Code Magazine     | Project completion, Semantic structure, README polishing          |
+| 2026-06-29 | Git Workflow      | Branching, renaming, staging (`git add`), and pushing to remote  |
+| 2026-06-29 | Semantic HTML     | Structure (`header`, `main`, `footer`) vs Presentational tags    |
+| 2026-06-29 | Documentation     | Creating `README.md`, image linking, and repo organization       |
+| 2026-06-28 | HTML Basics       | Created index.html and added first content                       |
+| 2026-06-28 | Environment Setup | Initialized GitHub repo, VS Code setup, Git workflow             |
+
 
 ## 🖼️ Project Preview
 
-![My first webpage](images/first%20webpage.png)
+![Code Magazine Project](images/code-magazine-preview.png)
 
 ## 🛠 Tech Stack
 
