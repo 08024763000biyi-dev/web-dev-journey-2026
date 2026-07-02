@@ -22,6 +22,9 @@ The Code Magazine is a simple, clean, and semantic HTML layout.
 ## Technologies Used
 - HTML5
 
-## Future Improvements
-- [ ] Add CSS to style the layout and colors.
-- [ ] Implement responsive design using Media Queries.
+## What's Next
+
+This project was built as an HTML-only exercise. As I continue learning, I may:
+- Add CSS styling
+- Make it responsive
+- Turn it into a full blog layout
