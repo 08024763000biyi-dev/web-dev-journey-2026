@@ -1,40 +1,33 @@
-# My Web Development Journey 2026
+# 🧪 Practice Branch
 
-Welcome to my coding log! This repository serves as a documentation of my journey from learning the fundamentals of web development to building real-world projects.
+This branch is my personal sandbox for experimenting with code as I learn front-end development.
 
-## 🚀 Goals
+## 📂 What's Inside
 
-- [x] Master HTML5 & CSS3
-- [ ] Learn JavaScript fundamentals
-- [ ] Understand responsive web design
-- [ ] Build and deploy professional projects
+- HTML experiments
+- CSS practice (inline, internal, external)
+- JavaScript testing (coming soon)
+- Random playground files
 
-## 📅 Progress Log
+## 🎯 Purpose
 
-| Date       | Topic/Module    | Key Concepts Learned                                     |
-| :--------- | :-------------- | :------------------------------------------------------- |
-| 2026-06-28 | Welcome & Setup | Initialized GitHub repo, VS Code setup, Git workflow     |
-| 2026-06-28 | HTML Basics     | Created index.html, added first content                  |
-| 2026-06-28 | Code Magazine   | HTML semantic structure, Folder organization             |
+This branch is strictly for learning and trying out new concepts. Nothing here is polished or production-ready — it's just for me to break things, test ideas, and build muscle memory.
 
-## 🖼️ Project Showcase
+## 🖥️ How to View
 
-### My First Webpage
-![My first webpage](images/first%20webpage.png)
+If you want to open any of the practice files in your browser:
 
-### Code Magazine
-* **Status:** In Progress
-* **Focus:** Learning semantic HTML structure and organizing assets with folder management.
+1. Go to the `practice/` folder
+2. Find the HTML file you want to view (e.g., `tags.html`)
+3. Double-click the file — it will open automatically in your web browser
 
-## 🛠 Tech Stack
+That's it! No special tools or commands needed.
 
-- HTML5
-- CSS3
-- JavaScript
+> 💡 **Pro Tip:** If you're using VS Code, you can also right-click the file and select "Open with Live Server" for automatic page refresh when you save changes.
 
-## 🔗 Live Portfolio
+## 🚫 Not for Merging
 
-My deployed projects will be listed here.
+This branch is **not** meant to be merged into `main`. It's purely for practice and experimentation. The `main` branch is reserved for clean, polished projects.
 
----
-*Built with love by Israel Oluwasemilore Olubiyi.*
+
+*Built with ❤️ as part of my front-end development journey.*
