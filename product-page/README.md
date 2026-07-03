@@ -25,12 +25,12 @@ A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low T
 - Creating external links with `target="_blank"` for better user experience
 - Organizing product features using unordered lists
 
-## Future Improvements
+## What's Next
 
-- [ ] Add CSS styling (colors, fonts, layout)
-- [ ] Make the page responsive
-- [ ] Add interactivity with JavaScript (cart functionality)
-- [ ] Add more product options (colors, sizes)
+This project was built as an HTML-only exercise. As I continue learning, I may:
+- Add CSS styling
+- Make it responsive
+- Turn it into a full blog layout
 
 ## Project Preview
 
