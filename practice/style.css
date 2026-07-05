@@ -1,3 +1,20 @@
-h1{
-    color: blue;
+h1,
+h2,
+p {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: blue;
+}
+
+.role {
+  text-transform: uppercase;
+  color: red;
+}
+
+#bio {
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: oblique;
 }
