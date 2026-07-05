@@ -1,5 +1,6 @@
 * {
   color: #444;
+  font-family: sans-serif;
 }
 
 h1,
@@ -33,4 +34,23 @@ article {
   border-top: 5px solid teal;
   border-bottom: 5px solid teal;
   margin-right: 260px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #1094ad;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  text-decoration: underline orangered;
 }
