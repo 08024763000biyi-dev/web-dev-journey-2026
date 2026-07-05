@@ -1,3 +1,7 @@
+* {
+  color: #444;
+}
+
 h1,
 h2,
 p {
@@ -17,4 +21,16 @@ h1 {
   font-size: x-large;
   font-weight: bolder;
   font-style: oblique;
+}
+
+.main-header {
+  background-color: #f5f5f5;
+}
+
+article {
+  background-color: #f5f5f5;
+  /* border: 5px solid teal; */
+  border-top: 5px solid teal;
+  border-bottom: 5px solid teal;
+  margin-right: 260px;
 }
