@@ -4,7 +4,7 @@ Welcome to my first web development project! This project started as an HTML-onl
 
 ## Project Description
 
-The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability and visual appeal.
+The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, and interactive link states.
 
 ## 🖼️ Project Preview
 
@@ -12,7 +12,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 ![Code Magazine Before](images/unstyled-code-magazine-preview.png)
 
 **After CSS (Styled):**
-![Code Magazine After](images/styled%20code-magazine-preview.png)
+![Code Magazine After](images/styled-code-magazine-preview.png)
 
 ## Key Features
 
@@ -20,7 +20,8 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 - **Content Organization**: Implemented ordered and unordered lists, and proper heading hierarchy.
 - **External & Internal Linking**: Includes navigation between pages and secure external links using `target="_blank"`.
 - **Media**: Integrated images with descriptive `alt` tags.
-- **CSS Styling**: Added fonts, colors, text transforms, and spacing for better readability.
+- **CSS Styling**: Added fonts, colors, text transforms, spacing, and pseudo-class-based link styling (`:link`, `:visited`, `:hover`, `:active`).
+- **Chrome DevTools**: Used for inspecting and debugging CSS styles.
 
 ## Technologies Used
 
@@ -30,7 +31,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 ## Project Status
 
 ✅ HTML structure complete  
-✅ CSS styling added (fonts, colors, typography)  
+✅ CSS styling added (fonts, colors, typography, link states)  
 ⏳ Responsive design (coming soon)  
 ⏳ JavaScript interactivity (future)
 
