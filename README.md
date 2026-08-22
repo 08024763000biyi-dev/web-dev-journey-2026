@@ -13,13 +13,14 @@ Welcome to my coding log! This repository serves as a documentation of my journe
 
 Here are the projects I have built during my journey:
 
-- **[Code Magazine](code-magazine/)**: ✅ Completed - A semantic HTML structure project now styled with CSS (fonts, colors, typography, and link states).
-- **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers built with HTML structure, lists, images, and links.
+- **[Code Magazine](code-magazine/)**: ✅ Completed - A semantic HTML structure project now fully styled with CSS (fonts, colors, typography, link states, and body border).
+- **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers with HTML structure and CSS styling (button hover effects, list styling, borders, link states, and `cursor: pointer`).
 
 ## 📅 Progress Log
 
 | Date       | Topic/Module                 | Key Concepts Learned                                                                 |
 | :--------- | :--------------------------- | :----------------------------------------------------------------------------------- |
+| 2026-08-22 | CSS Challenge & Core Concepts | Styling product page with classes; `text-transform: uppercase`; `list-style: square`; borders; button hover effects (black → white background flip); `cursor: pointer`; link pseudo-classes (`:link`, `:visited`, `:hover`, `:active`); CSS inheritance (body styles inherited by children, overridden when needed); universal selector (`*`) for global resets |
 | 2026-07-05 | CSS Selectors, Colors & DevTools | Element, class, and ID selectors; combining selectors; colors (hex, rgb, named); pseudo-classes (`:link`, `:visited`, `:hover`, `:active`); styling hyperlinks; Chrome DevTools inspection |
 | 2026-07-03 | CSS Basics                   | Styling fonts, colors, text transforms, line heights, and CSS reset                 |
 | 2026-07-02 | Product Page                 | HTML product layout, image integration, lists, and anchor links                     |

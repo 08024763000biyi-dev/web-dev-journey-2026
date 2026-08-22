@@ -20,7 +20,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 - **Content Organization**: Implemented ordered and unordered lists, and proper heading hierarchy.
 - **External & Internal Linking**: Includes navigation between pages and secure external links using `target="_blank"`.
 - **Media**: Integrated images with descriptive `alt` tags.
-- **CSS Styling**: Added fonts, colors, text transforms, spacing, and pseudo-class-based link styling (`:link`, `:visited`, `:hover`, `:active`).
+- **CSS Styling**: Added fonts, colors, text transforms, spacing, pseudo-class-based link styling (`:link`, `:visited`, `:hover`, `:active`), and a top border on the body for visual structure.
 - **Chrome DevTools**: Used for inspecting and debugging CSS styles.
 
 ## Technologies Used
@@ -28,10 +28,19 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 - HTML5
 - CSS3
 
+## What I Learned
+
+- Structuring a magazine-style layout with semantic HTML
+- Using CSS for typography, colors, and spacing
+- Styling link states with pseudo-classes (`:link`, `:visited`, `:hover`, `:active`)
+- Applying borders to elements for visual hierarchy
+- Understanding CSS inheritance (body styles inherited by children, but can be overridden)
+- Using the universal selector (`*`) for global resets
+
 ## Project Status
 
 ✅ HTML structure complete  
-✅ CSS styling added (fonts, colors, typography, link states)  
+✅ CSS styling added (fonts, colors, typography, link states, body border)  
 ⏳ Responsive design (coming soon)  
 ⏳ JavaScript interactivity (future)
 
