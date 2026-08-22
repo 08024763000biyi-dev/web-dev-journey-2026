@@ -4,7 +4,7 @@ Welcome to my first web development project! This project started as an HTML-onl
 
 ## Project Description
 
-The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, and interactive link states.
+The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, interactive link states, and a solid understanding of the CSS Box Model.
 
 ## 🖼️ Project Preview
 
@@ -12,7 +12,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 ![Code Magazine Before](images/unstyled-code-magazine-preview.png)
 
 **After CSS (Styled):**
-![Code Magazine After](images/styled-code-magazine-preview.png)
+![Code Magazine After](images/code-magazine-preview.png)
 
 ## Key Features
 
@@ -21,6 +21,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 - **External & Internal Linking**: Includes navigation between pages and secure external links using `target="_blank"`.
 - **Media**: Integrated images with descriptive `alt` tags.
 - **CSS Styling**: Added fonts, colors, text transforms, spacing, pseudo-class-based link styling (`:link`, `:visited`, `:hover`, `:active`), and a top border on the body for visual structure.
+- **CSS Box Model**: Applied padding, margin, borders, and dimensions to control spacing and layout.
 - **Chrome DevTools**: Used for inspecting and debugging CSS styles.
 
 ## Technologies Used
@@ -36,11 +37,21 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 - Applying borders to elements for visual hierarchy
 - Understanding CSS inheritance (body styles inherited by children, but can be overridden)
 - Using the universal selector (`*`) for global resets
+- **CSS Box Model**:
+  - **Content** — the actual text or image inside an element
+  - **Border** — the line wrapping around the padding/content
+  - **Padding** — space between the content and the border (inside)
+  - **Margin** — space outside the border (between elements)
+  - **Fill Area** — background color or image covering the element
+  - **Height & Width** — setting explicit dimensions for elements
+  - **Shorthand Styling** — `margin: 10px 20px;` and `padding: 10px;`
+  - **Collapsing Margins** — when vertical margins of adjacent elements combine into one
 
 ## Project Status
 
 ✅ HTML structure complete  
 ✅ CSS styling added (fonts, colors, typography, link states, body border)  
+✅ CSS Box Model applied (padding, margin, borders, dimensions)  
 ⏳ Responsive design (coming soon)  
 ⏳ JavaScript interactivity (future)
 

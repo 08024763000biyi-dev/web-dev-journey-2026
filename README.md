@@ -13,13 +13,14 @@ Welcome to my coding log! This repository serves as a documentation of my journe
 
 Here are the projects I have built during my journey:
 
-- **[Code Magazine](code-magazine/)**: ✅ Completed - A semantic HTML structure project now fully styled with CSS (fonts, colors, typography, link states, and body border).
-- **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers with HTML structure and CSS styling (button hover effects, list styling, borders, link states, and `cursor: pointer`).
+- **[Code Magazine](code-magazine/)**: ✅ Completed - A semantic HTML structure project now fully styled with CSS (fonts, colors, typography, link states, body border, and CSS Box Model).
+- **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers with HTML structure and CSS styling (button hover effects, list styling, borders, link states, `cursor: pointer`, and CSS Box Model).
 
 ## 📅 Progress Log
 
 | Date       | Topic/Module                 | Key Concepts Learned                                                                 |
 | :--------- | :--------------------------- | :----------------------------------------------------------------------------------- |
+| 2026-08-22 | CSS Box Model                | Content, border, padding, margin, fill area (background color/image); element dimensions (height & width); shorthand styling for margin and padding; collapsing margins; applied to both Code Magazine and Product Page projects |
 | 2026-08-22 | CSS Challenge & Core Concepts | Styling product page with classes; `text-transform: uppercase`; `list-style: square`; borders; button hover effects (black → white background flip); `cursor: pointer`; link pseudo-classes (`:link`, `:visited`, `:hover`, `:active`); CSS inheritance (body styles inherited by children, overridden when needed); universal selector (`*`) for global resets |
 | 2026-07-05 | CSS Selectors, Colors & DevTools | Element, class, and ID selectors; combining selectors; colors (hex, rgb, named); pseudo-classes (`:link`, `:visited`, `:hover`, `:active`); styling hyperlinks; Chrome DevTools inspection |
 | 2026-07-03 | CSS Basics                   | Styling fonts, colors, text transforms, line heights, and CSS reset                 |
@@ -33,7 +34,7 @@ Here are the projects I have built during my journey:
 
 ## 🖼️ Project Previews
 
-![Code Magazine Project](images/styled-code-magazine-preview.png)
+![Code Magazine Project](images/code-magazine-preview.png)
 
 ![Product Page Project](images/product-page-preview.png)
 

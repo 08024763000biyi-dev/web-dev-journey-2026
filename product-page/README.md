@@ -1,10 +1,10 @@
 # 👟 Product Page - Converse Chuck Taylor
 
-This is my second HTML project, now fully styled with CSS! Built as part of my web development learning journey.
+This is my second HTML project, now fully styled with CSS! Built as part of my web development learning journey, this project also served as a challenge to apply CSS Box Model concepts.
 
 ## Project Description
 
-A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low Top sneakers — now enhanced with custom CSS styling, interactive hover states, and polished UI details.
+A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low Top sneakers — now enhanced with custom CSS styling, interactive hover states, polished UI details, and proper use of the CSS Box Model for layout and spacing.
 
 ## Key Features
 
@@ -19,6 +19,12 @@ A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low T
   - Borders for structure and visual hierarchy
   - `cursor: pointer` on interactive elements
   - Link pseudo-classes (`:link`, `:visited`, `:hover`, `:active`)
+- **CSS Box Model**:
+  - Padding and margin for spacing control
+  - Borders for visual structure
+  - Height and width for element dimensions
+  - Background fill area with colors
+  - Shorthand styling for efficient code
 - **Call-to-Action**: "Add to cart" button with hover interactivity
 
 ## Technologies Used
@@ -40,16 +46,31 @@ A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low T
 - Styling link states with pseudo-classes (`:link`, `:visited`, `:hover`, `:active`)
 - Understanding CSS inheritance (body styles inherited by children, but can be overridden)
 - Using the universal selector (`*`) for global resets
+- **CSS Box Model**:
+  - **Content** — the actual text or image inside an element
+  - **Border** — the line wrapping around the padding/content
+  - **Padding** — space between the content and the border (inside)
+  - **Margin** — space outside the border (between elements)
+  - **Fill Area** — background color covering the element
+  - **Height & Width** — setting explicit dimensions for elements
+  - **Shorthand Styling** — `margin: 10px 20px;` and `padding: 10px;`
+  - **Collapsing Margins** — when vertical margins of adjacent elements combine into one
 
 ## Project Status
 
 ✅ HTML structure complete  
 ✅ CSS styling added (layout, colors, typography, button, lists, borders, hover states)  
+✅ CSS Box Model applied (padding, margin, borders, dimensions)  
+✅ Challenge completed — applied all concepts learned  
 ⏳ Responsive design (coming soon)  
 ⏳ JavaScript interactivity (future)
 
 ## Project Preview
 
+**Before CSS (HTML only):**
+![Product Page Before](images/unstyled-product-page-preview.png)
+
+**After CSS (Styled):**
 ![Product Page Preview](images/product-page-preview.png)
 
 ## How to View
