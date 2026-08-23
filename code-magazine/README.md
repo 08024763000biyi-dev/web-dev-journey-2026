@@ -4,7 +4,7 @@ Welcome to my first web development project! This project started as an HTML-onl
 
 ## Project Description
 
-The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, interactive link states, and a solid understanding of the CSS Box Model.
+The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, interactive link states, and a solid understanding of the CSS Box Model, display property, and positioning.
 
 ## 🖼️ Project Preview
 
@@ -22,6 +22,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 - **Media**: Integrated images with descriptive `alt` tags.
 - **CSS Styling**: Added fonts, colors, text transforms, spacing, pseudo-class-based link styling (`:link`, `:visited`, `:hover`, `:active`), and a top border on the body for visual structure.
 - **CSS Box Model**: Applied padding, margin, borders, and dimensions to control spacing and layout.
+- **CSS Display & Positioning**: Applied block, inline, and inline-block display properties; used normal flow and absolute positioning for layout control.
 - **Chrome DevTools**: Used for inspecting and debugging CSS styles.
 
 ## Technologies Used
@@ -46,12 +47,23 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
   - **Height & Width** — setting explicit dimensions for elements
   - **Shorthand Styling** — `margin: 10px 20px;` and `padding: 10px;`
   - **Collapsing Margins** — when vertical margins of adjacent elements combine into one
+- **CSS Display Property**:
+  - **Block-level boxes** — take full width, stack vertically (`<div>`, `<h1>`, `<p>`)
+  - **Inline boxes** — only take needed width, sit next to each other (`<span>`, `<a>`)
+  - **Inline-block boxes** — like inline but can have width/height/margin/padding
+  - `display: block;` `display: inline;` `display: inline-block;`
+- **CSS Positioning**:
+  - **Normal Flow** — default layout where elements stack based on display type
+  - **Absolute Positioning** — removes element from normal flow; positions relative to nearest positioned ancestor
+  - **Position Property** — `static` (default), `relative`, `absolute`, `fixed`
+  - **Offset Properties** — `top`, `right`, `bottom`, `left`
 
 ## Project Status
 
 ✅ HTML structure complete  
 ✅ CSS styling added (fonts, colors, typography, link states, body border)  
 ✅ CSS Box Model applied (padding, margin, borders, dimensions)  
+✅ CSS Display & Positioning applied  
 ⏳ Responsive design (coming soon)  
 ⏳ JavaScript interactivity (future)
 

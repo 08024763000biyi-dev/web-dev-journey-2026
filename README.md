@@ -13,13 +13,14 @@ Welcome to my coding log! This repository serves as a documentation of my journe
 
 Here are the projects I have built during my journey:
 
-- **[Code Magazine](code-magazine/)**: ✅ Completed - A semantic HTML structure project now fully styled with CSS (fonts, colors, typography, link states, body border, and CSS Box Model).
-- **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers with HTML structure and CSS styling (button hover effects, list styling, borders, link states, `cursor: pointer`, and CSS Box Model).
+- **[Code Magazine](code-magazine/)**: ✅ Completed - A semantic HTML structure project now fully styled with CSS (fonts, colors, typography, link states, body border, CSS Box Model, display property, and positioning).
+- **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers with HTML structure and CSS styling (button hover effects, list styling, borders, link states, `cursor: pointer`, CSS Box Model, display property, and positioning).
 
 ## 📅 Progress Log
 
 | Date       | Topic/Module                 | Key Concepts Learned                                                                 |
 | :--------- | :--------------------------- | :----------------------------------------------------------------------------------- |
+| 2026-08-23 | CSS Display & Positioning    | Types of boxes: block-level, inline, and inline-block; `display` property (`block`, `inline`, `inline-block`); positioning modes: normal flow and absolute positioning; `position` property (`static`, `relative`, `absolute`, `fixed`); offset properties (`top`, `right`, `bottom`, `left`) |
 | 2026-08-22 | CSS Box Model                | Content, border, padding, margin, fill area (background color/image); element dimensions (height & width); shorthand styling for margin and padding; collapsing margins; applied to both Code Magazine and Product Page projects |
 | 2026-08-22 | CSS Challenge & Core Concepts | Styling product page with classes; `text-transform: uppercase`; `list-style: square`; borders; button hover effects (black → white background flip); `cursor: pointer`; link pseudo-classes (`:link`, `:visited`, `:hover`, `:active`); CSS inheritance (body styles inherited by children, overridden when needed); universal selector (`*`) for global resets |
 | 2026-07-05 | CSS Selectors, Colors & DevTools | Element, class, and ID selectors; combining selectors; colors (hex, rgb, named); pseudo-classes (`:link`, `:visited`, `:hover`, `:active`); styling hyperlinks; Chrome DevTools inspection |
