@@ -1,10 +1,10 @@
 # 👟 Product Page - Converse Chuck Taylor
 
-This is my second HTML project, now fully styled with CSS! Built as part of my web development learning journey, this project also served as a challenge to apply CSS Box Model concepts.
+This is my second HTML project, now fully styled with CSS! Built as part of my web development learning journey, this project also served as a challenge to apply CSS Box Model concepts and pseudo-elements.
 
 ## Project Description
 
-A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low Top sneakers — now enhanced with custom CSS styling, interactive hover states, polished UI details, and proper use of the CSS Box Model for layout and spacing.
+A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low Top sneakers — now enhanced with custom CSS styling, interactive hover states, polished UI details, proper use of the CSS Box Model for layout and spacing, and pseudo-elements for advanced styling.
 
 ## Key Features
 
@@ -25,6 +25,11 @@ A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low T
   - Height and width for element dimensions
   - Background fill area with colors
   - Shorthand styling for efficient code
+- **CSS Pseudo-elements**:
+  - `::first-line` — styling the first line of text blocks
+  - `::first-letter` — styling the first letter of text blocks
+  - `::before` — inserting decorative content before elements
+  - `::after` — inserting decorative content after elements
 - **Call-to-Action**: "Add to cart" button with hover interactivity
 
 ## Technologies Used
@@ -55,12 +60,21 @@ A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low T
   - **Height & Width** — setting explicit dimensions for elements
   - **Shorthand Styling** — `margin: 10px 20px;` and `padding: 10px;`
   - **Collapsing Margins** — when vertical margins of adjacent elements combine into one
+- **CSS Pseudo-elements**:
+  - `::first-line` — styles the first line of a block of text
+  - `::first-letter` — styles the first letter of a block of text
+  - `::before` — inserts content before an element's content (using `content` property)
+  - `::after` — inserts content after an element's content (using `content` property)
+  - Adjacent pseudo-elements — using multiple pseudo-elements on the same selector
+  - Double colon syntax (`::`) distinguishes pseudo-elements from pseudo-classes (`:`)
+  - `content` property — required for `::before` and `::after` to work
 
 ## Project Status
 
 ✅ HTML structure complete  
 ✅ CSS styling added (layout, colors, typography, button, lists, borders, hover states)  
 ✅ CSS Box Model applied (padding, margin, borders, dimensions)  
+✅ CSS Pseudo-elements applied  
 ✅ Challenge completed — applied all concepts learned  
 ⏳ Responsive design (coming soon)  
 ⏳ JavaScript interactivity (future)
