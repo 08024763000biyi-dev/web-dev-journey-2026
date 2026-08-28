@@ -4,7 +4,7 @@ Welcome to my first web development project! This project started as an HTML-onl
 
 ## Project Description
 
-The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, interactive link states, and a solid understanding of the CSS Box Model, display property, and positioning.
+The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, interactive link states, and a solid understanding of the CSS Box Model, display property, positioning, and pseudo-elements.
 
 ## 🖼️ Project Preview
 
@@ -23,6 +23,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 - **CSS Styling**: Added fonts, colors, text transforms, spacing, pseudo-class-based link styling (`:link`, `:visited`, `:hover`, `:active`), and a top border on the body for visual structure.
 - **CSS Box Model**: Applied padding, margin, borders, and dimensions to control spacing and layout.
 - **CSS Display & Positioning**: Applied block, inline, and inline-block display properties; used normal flow and absolute positioning for layout control.
+- **CSS Pseudo-elements**: Used `::first-line`, `::first-letter`, `::before`, and `::after` to style specific parts of elements and insert decorative content.
 - **Chrome DevTools**: Used for inspecting and debugging CSS styles.
 
 ## Technologies Used
@@ -57,6 +58,13 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
   - **Absolute Positioning** — removes element from normal flow; positions relative to nearest positioned ancestor
   - **Position Property** — `static` (default), `relative`, `absolute`, `fixed`
   - **Offset Properties** — `top`, `right`, `bottom`, `left`
+- **CSS Pseudo-elements**:
+  - `::first-line` — styles the first line of a block of text
+  - `::first-letter` — styles the first letter of a block of text
+  - `::before` — inserts content before an element's content (using `content` property)
+  - `::after` — inserts content after an element's content (using `content` property)
+  - Adjacent pseudo-elements — using multiple pseudo-elements on the same selector
+  - Double colon syntax (`::`) distinguishes pseudo-elements from pseudo-classes (`:`)
 
 ## Project Status
 
@@ -64,6 +72,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 ✅ CSS styling added (fonts, colors, typography, link states, body border)  
 ✅ CSS Box Model applied (padding, margin, borders, dimensions)  
 ✅ CSS Display & Positioning applied  
+✅ CSS Pseudo-elements applied  
 ⏳ Responsive design (coming soon)  
 ⏳ JavaScript interactivity (future)
 
