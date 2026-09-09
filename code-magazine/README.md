@@ -4,7 +4,7 @@ Welcome to my first web development project! This project started as an HTML-onl
 
 ## Project Description
 
-The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, interactive link states, and a solid understanding of the CSS Box Model, display property, positioning, and pseudo-elements.
+The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, interactive link states, and a solid understanding of the CSS Box Model, display property, positioning, pseudo-elements, and float layouts.
 
 ## 🖼️ Project Preview
 
@@ -24,6 +24,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 - **CSS Box Model**: Applied padding, margin, borders, and dimensions to control spacing and layout.
 - **CSS Display & Positioning**: Applied block, inline, and inline-block display properties; used normal flow and absolute positioning for layout control.
 - **CSS Pseudo-elements**: Used `::first-line`, `::first-letter`, `::before`, and `::after` to style specific parts of elements and insert decorative content.
+- **CSS Float Styling**: Applied `float: left;` and `float: right;` with clearfix techniques for wrapping text around images and controlling layout flow.
 - **Chrome DevTools**: Used for inspecting and debugging CSS styles.
 
 ## Technologies Used
@@ -65,6 +66,13 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
   - `::after` — inserts content after an element's content (using `content` property)
   - Adjacent pseudo-elements — using multiple pseudo-elements on the same selector
   - Double colon syntax (`::`) distinguishes pseudo-elements from pseudo-classes (`:`)
+- **CSS Float Styling**:
+  - `float: left;` and `float: right;` — pushing elements to the left or right
+  - `clear: left;`, `clear: right;`, `clear: both;` — stopping elements from wrapping around floats
+  - Parent collapse problem — what happens when a parent contains only floated children
+  - Clearfix hack — using `::after` with `clear: both` to fix parent collapse
+  - `display: flow-root;` — modern way to fix parent collapse
+  - Use cases: wrapping text around images, drop caps, old-school layouts
 
 ## Project Status
 
@@ -73,6 +81,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 ✅ CSS Box Model applied (padding, margin, borders, dimensions)  
 ✅ CSS Display & Positioning applied  
 ✅ CSS Pseudo-elements applied  
+✅ CSS Float Styling applied  
 ⏳ Responsive design (coming soon)  
 ⏳ JavaScript interactivity (future)
 
