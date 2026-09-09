@@ -4,7 +4,7 @@ Welcome to my first web development project! This project started as an HTML-onl
 
 ## Project Description
 
-The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, interactive link states, and a solid understanding of the CSS Box Model, display property, positioning, pseudo-elements, and float layouts.
+The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, interactive link states, and a solid understanding of the CSS Box Model, display property, positioning, pseudo-elements, float layouts, and box-sizing.
 
 ## 🖼️ Project Preview
 
@@ -22,6 +22,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 - **Media**: Integrated images with descriptive `alt` tags.
 - **CSS Styling**: Added fonts, colors, text transforms, spacing, pseudo-class-based link styling (`:link`, `:visited`, `:hover`, `:active`), and a top border on the body for visual structure.
 - **CSS Box Model**: Applied padding, margin, borders, and dimensions to control spacing and layout.
+- **CSS Box Sizing**: Applied `box-sizing: border-box;` to ensure consistent width/height calculations across all elements (padding and border are included in the element's total dimensions).
 - **CSS Display & Positioning**: Applied block, inline, and inline-block display properties; used normal flow and absolute positioning for layout control.
 - **CSS Pseudo-elements**: Used `::first-line`, `::first-letter`, `::before`, and `::after` to style specific parts of elements and insert decorative content.
 - **CSS Float Styling**: Applied `float: left;` and `float: right;` with clearfix techniques for wrapping text around images and controlling layout flow.
@@ -49,6 +50,10 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
   - **Height & Width** — setting explicit dimensions for elements
   - **Shorthand Styling** — `margin: 10px 20px;` and `padding: 10px;`
   - **Collapsing Margins** — when vertical margins of adjacent elements combine into one
+- **CSS Box Sizing**:
+  - `box-sizing: border-box;` — ensures that `width` and `height` include padding and border, making layout calculations predictable and consistent
+  - Prevents elements from overflowing containers when padding or border is added
+  - Applied via universal reset (`* { box-sizing: border-box; }`) for global consistency
 - **CSS Display Property**:
   - **Block-level boxes** — take full width, stack vertically (`<div>`, `<h1>`, `<p>`)
   - **Inline boxes** — only take needed width, sit next to each other (`<span>`, `<a>`)
@@ -79,6 +84,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 ✅ HTML structure complete  
 ✅ CSS styling added (fonts, colors, typography, link states, body border)  
 ✅ CSS Box Model applied (padding, margin, borders, dimensions)  
+✅ CSS Box Sizing (`border-box`) applied  
 ✅ CSS Display & Positioning applied  
 ✅ CSS Pseudo-elements applied  
 ✅ CSS Float Styling applied  
