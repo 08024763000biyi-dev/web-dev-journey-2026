@@ -20,6 +20,7 @@ Here are the projects I have built during my journey:
 
 | Date       | Topic/Module                 | Key Concepts Learned                                                                 |
 | :--------- | :--------------------------- | :----------------------------------------------------------------------------------- |
+| 2026-09-20 | Flexbox (Practice)           | Created a practice file inside Code Magazine to learn flexbox syntax basics before applying to the real project; experimenting with flex container properties |
 | 2026-09-20 | CSS Float Challenge          | Completed challenge on Product Page — applied float layouts (`float: left;`, `float: right;`, clearfix, `clear: both;`, `display: flow-root;`) to restructure the entire product page layout |
 | 2026-09-08 | CSS Box Sizing               | `box-sizing: border-box;` — ensures width and height include padding and border; prevents layout overflow when adding padding/border; applied via universal reset (`* { box-sizing: border-box; }`) to Code Magazine project |
 | 2026-09-08 | CSS Float Styling            | `float: left;` and `float: right;` — pushing elements left or right; `clear: left;`, `clear: right;`, `clear: both;` — stopping elements from wrapping around floats; parent collapse problem; clearfix hack with `::after` and `clear: both`; `display: flow-root;` — modern fix for parent collapse; use cases: wrapping text around images, drop caps, old-school layouts; applied to Code Magazine project |
@@ -67,6 +68,6 @@ If you want to open any of these projects on your own computer:
    - Navigate to the project you want to view (e.g., `code-magazine/` or `product-page/`)
 
 3. **Open the HTML file**  
-   - Double-click `index.html` — it will open automatically in your browser
+   - Double-click `index.html` — it will open automatically in your web browser
 
 That's it! No special software or commands needed.
