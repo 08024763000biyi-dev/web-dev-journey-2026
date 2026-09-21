@@ -14,12 +14,13 @@ Welcome to my coding log! This repository serves as a documentation of my journe
 Here are the projects I have built during my journey:
 
 - **[Code Magazine](code-magazine/)**: ✅ Completed - A semantic HTML structure project now fully styled with CSS (fonts, colors, typography, link states, body border, CSS Box Model, display property, positioning, pseudo-elements, float styling, and box-sizing).
-- **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers with HTML structure and CSS styling (button hover effects, list styling, borders, link states, `cursor: pointer`, CSS Box Model, display property, positioning, and pseudo-elements).
+- **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers with HTML structure and CSS styling (button hover effects, list styling, borders, link states, `cursor: pointer`, CSS Box Model, display property, positioning, pseudo-elements, and float styling).
 
 ## 📅 Progress Log
 
 | Date       | Topic/Module                 | Key Concepts Learned                                                                 |
 | :--------- | :--------------------------- | :----------------------------------------------------------------------------------- |
+| 2026-09-20 | CSS Float Challenge          | Completed challenge on Product Page — applied float layouts (`float: left;`, `float: right;`, clearfix, `clear: both;`, `display: flow-root;`) to restructure the entire product page layout |
 | 2026-09-08 | CSS Box Sizing               | `box-sizing: border-box;` — ensures width and height include padding and border; prevents layout overflow when adding padding/border; applied via universal reset (`* { box-sizing: border-box; }`) to Code Magazine project |
 | 2026-09-08 | CSS Float Styling            | `float: left;` and `float: right;` — pushing elements left or right; `clear: left;`, `clear: right;`, `clear: both;` — stopping elements from wrapping around floats; parent collapse problem; clearfix hack with `::after` and `clear: both`; `display: flow-root;` — modern fix for parent collapse; use cases: wrapping text around images, drop caps, old-school layouts; applied to Code Magazine project |
 | 2026-08-27 | CSS Pseudo-elements & Challenge | Applied `::first-line`, `::first-letter`, `::before`, and `::after` to Product Page; completed challenge upgrading Product Page with pseudo-elements and advanced styling techniques |
@@ -66,6 +67,6 @@ If you want to open any of these projects on your own computer:
    - Navigate to the project you want to view (e.g., `code-magazine/` or `product-page/`)
 
 3. **Open the HTML file**  
-   - Double-click `index.html` — it will open automatically in your web browser
+   - Double-click `index.html` — it will open automatically in your browser
 
 That's it! No special software or commands needed.
