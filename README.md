@@ -13,13 +13,14 @@ Welcome to my coding log! This repository serves as a documentation of my journe
 
 Here are the projects I have built during my journey:
 
-- **[Code Magazine](code-magazine/)**: ✅ Completed - A semantic HTML structure project now fully styled with CSS (fonts, colors, typography, link states, body border, CSS Box Model, display property, positioning, pseudo-elements, float styling, and box-sizing).
+- **[Code Magazine](code-magazine/)**: ✅ Completed - A semantic HTML structure project now fully styled with CSS (fonts, colors, typography, link states, body border, CSS Box Model, display property, positioning, pseudo-elements, float styling, box-sizing, and flexbox).
 - **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers with HTML structure and CSS styling (button hover effects, list styling, borders, link states, `cursor: pointer`, CSS Box Model, display property, positioning, pseudo-elements, and float styling).
 
 ## 📅 Progress Log
 
 | Date       | Topic/Module                 | Key Concepts Learned                                                                 |
 | :--------- | :--------------------------- | :----------------------------------------------------------------------------------- |
+| 2026-09-21 | CSS Flexbox                  | Applied `display: flex;` to Code Magazine layout; used `flex-grow`, `flex-shrink`, `flex-basis`, `gap`, `align-items`, `align-self`, and `justify-content` (`center`, `flex-start`, `flex-end`, `space-between`, `space-around`) to build flexible, responsive component layouts |
 | 2026-09-20 | Flexbox (Practice)           | Created a practice file inside Code Magazine to learn flexbox syntax basics before applying to the real project; experimenting with flex container properties |
 | 2026-09-20 | CSS Float Challenge          | Completed challenge on Product Page — applied float layouts (`float: left;`, `float: right;`, clearfix, `clear: both;`, `display: flow-root;`) to restructure the entire product page layout |
 | 2026-09-08 | CSS Box Sizing               | `box-sizing: border-box;` — ensures width and height include padding and border; prevents layout overflow when adding padding/border; applied via universal reset (`* { box-sizing: border-box; }`) to Code Magazine project |

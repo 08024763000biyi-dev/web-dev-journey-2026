@@ -4,7 +4,7 @@ Welcome to my first web development project! This project started as an HTML-onl
 
 ## Project Description
 
-The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, interactive link states, and a solid understanding of the CSS Box Model, display property, positioning, pseudo-elements, float layouts, and box-sizing.
+The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, interactive link states, and a solid understanding of the CSS Box Model, display property, positioning, pseudo-elements, float layouts, box-sizing, and flexbox.
 
 ## 🖼️ Project Preview
 
@@ -26,6 +26,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 - **CSS Display & Positioning**: Applied block, inline, and inline-block display properties; used normal flow and absolute positioning for layout control.
 - **CSS Pseudo-elements**: Used `::first-line`, `::first-letter`, `::before`, and `::after` to style specific parts of elements and insert decorative content.
 - **CSS Float Styling**: Applied `float: left;` and `float: right;` with clearfix techniques for wrapping text around images and controlling layout flow.
+- **CSS Flexbox**: Applied `display: flex;` for modern one-dimensional layouts; used `flex-grow`, `flex-shrink`, `flex-basis`, `gap`, `align-items`, `align-self`, and `justify-content` to build flexible, responsive component layouts.
 - **Chrome DevTools**: Used for inspecting and debugging CSS styles.
 
 ## Technologies Used
@@ -78,6 +79,15 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
   - Clearfix hack — using `::after` with `clear: both` to fix parent collapse
   - `display: flow-root;` — modern way to fix parent collapse
   - Use cases: wrapping text around images, drop caps, old-school layouts
+- **CSS Flexbox**:
+  - `display: flex;` — turns an element into a flex container, enabling flexible layout of its children
+  - `flex-grow` — how much a flex item grows to fill available space
+  - `flex-shrink` — how much a flex item shrinks when space is tight
+  - `flex-basis` — the initial size of a flex item before growing/shrinking
+  - `gap` — space between flex items
+  - `align-items` — aligns items along the cross axis (`stretch`, `center`, `flex-start`, `flex-end`)
+  - `align-self` — overrides `align-items` for a single flex item
+  - `justify-content` — aligns items along the main axis (`center`, `flex-start`, `flex-end`, `space-between`, `space-around`)
 
 ## Project Status
 
@@ -88,6 +98,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 ✅ CSS Display & Positioning applied  
 ✅ CSS Pseudo-elements applied  
 ✅ CSS Float Styling applied  
+✅ CSS Flexbox applied (flex-grow, flex-shrink, flex-basis, gap, alignment)  
 ⏳ Responsive design (coming soon)  
 ⏳ JavaScript interactivity (future)
 
