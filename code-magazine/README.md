@@ -4,7 +4,7 @@ Welcome to my first web development project! This project started as an HTML-onl
 
 ## Project Description
 
-The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, interactive link states, and a solid understanding of the CSS Box Model, display property, positioning, pseudo-elements, float layouts, box-sizing, and flexbox.
+The Code Magazine is a clean, semantic HTML layout with CSS styling for improved readability, visual appeal, interactive link states, and a solid understanding of the CSS Box Model, display property, positioning, pseudo-elements, float layouts, box-sizing, flexbox, and CSS Grid.
 
 ## 🖼️ Project Preview
 
@@ -27,6 +27,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 - **CSS Pseudo-elements**: Used `::first-line`, `::first-letter`, `::before`, and `::after` to style specific parts of elements and insert decorative content.
 - **CSS Float Styling**: Applied `float: left;` and `float: right;` with clearfix techniques for wrapping text around images and controlling layout flow.
 - **CSS Flexbox**: Applied `display: flex;` for modern one-dimensional layouts; used `flex-grow`, `flex-shrink`, `flex-basis`, `gap`, `align-items`, `align-self`, and `justify-content` to build flexible, responsive component layouts.
+- **CSS Grid**: Rebuilt the entire Code Magazine layout with `display: grid;` — used `grid-template-columns`, `grid-template-rows`, `gap` (`row-gap`, `column-gap`), the `fr` unit, `repeat()`, `grid-column`, `grid-row`, `grid-area`, `justify-items`, and `align-items` for precise two-dimensional layout control.
 - **Chrome DevTools**: Used for inspecting and debugging CSS styles.
 
 ## Technologies Used
@@ -88,6 +89,17 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
   - `align-items` — aligns items along the cross axis (`stretch`, `center`, `flex-start`, `flex-end`)
   - `align-self` — overrides `align-items` for a single flex item
   - `justify-content` — aligns items along the main axis (`center`, `flex-start`, `flex-end`, `space-between`, `space-around`)
+- **CSS Grid**:
+  - `display: grid;` — turns an element into a grid container for two-dimensional layouts
+  - `grid-template-columns` and `grid-template-rows` — define the track structure
+  - `gap`, `row-gap`, `column-gap` — space between grid tracks
+  - `fr` unit — fractional unit that divides available space
+  - `repeat()` — shorthand for repeating track patterns (e.g., `repeat(3, 1fr)`)
+  - `grid-column` and `grid-row` — placing items across specific tracks
+  - `grid-area` — shorthand for placing items in a named or numbered area
+  - `justify-items` — aligns grid items along the inline (row) axis
+  - `align-items` — aligns grid items along the block (column) axis
+  - Rebuilt the entire Code Magazine layout using CSS Grid
 
 ## Project Status
 
@@ -99,6 +111,7 @@ The Code Magazine is a clean, semantic HTML layout with CSS styling for improved
 ✅ CSS Pseudo-elements applied  
 ✅ CSS Float Styling applied  
 ✅ CSS Flexbox applied (flex-grow, flex-shrink, flex-basis, gap, alignment)  
+✅ CSS Grid applied (full layout rebuild with tracks, gaps, and alignment)  
 ⏳ Responsive design (coming soon)  
 ⏳ JavaScript interactivity (future)
 
