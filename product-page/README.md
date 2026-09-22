@@ -1,10 +1,10 @@
 # 👟 Product Page - Converse Chuck Taylor
 
-This is my second HTML project, now fully styled with CSS! Built as part of my web development learning journey, this project also served as a challenge to apply CSS Box Model concepts, pseudo-elements, and float layouts.
+This is my second HTML project, now fully styled with CSS! Built as part of my web development learning journey, this project also served as a challenge to apply CSS Box Model concepts, pseudo-elements, float layouts, and flexbox.
 
 ## Project Description
 
-A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low Top sneakers — now enhanced with custom CSS styling, interactive hover states, polished UI details, proper use of the CSS Box Model for layout and spacing, pseudo-elements for advanced styling, and float layouts to restructure the page.
+A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low Top sneakers — now enhanced with custom CSS styling, interactive hover states, polished UI details, proper use of the CSS Box Model for layout and spacing, pseudo-elements for advanced styling, float layouts, and a full flexbox rebuild for modern layout control.
 
 ## Key Features
 
@@ -36,6 +36,13 @@ A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low T
   - Parent collapse problem and clearfix hack (`::after` with `clear: both`)
   - `display: flow-root;` — modern fix for parent collapse
   - Used to restructure the product page layout
+- **CSS Flexbox**:
+  - `display: flex;` — modern one-dimensional layout
+  - `flex-grow`, `flex-shrink`, `flex-basis` — flexible sizing of items
+  - `gap` — spacing between flex items
+  - `align-items`, `align-self` — cross-axis alignment
+  - `justify-content` — main-axis alignment (`center`, `flex-start`, `flex-end`, `space-between`, `space-around`)
+  - Rebuilt the entire product page layout using flexbox
 - **Call-to-Action**: "Add to cart" button with hover interactivity
 
 ## Technologies Used
@@ -82,6 +89,16 @@ A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low T
   - `display: flow-root;` — modern way to fix parent collapse
   - Use cases: wrapping text around images, drop caps, old-school layouts
   - Applied to restructure the product page layout
+- **CSS Flexbox**:
+  - `display: flex;` — turns an element into a flex container, enabling flexible layout of its children
+  - `flex-grow` — how much a flex item grows to fill available space
+  - `flex-shrink` — how much a flex item shrinks when space is tight
+  - `flex-basis` — the initial size of a flex item before growing/shrinking
+  - `gap` — space between flex items
+  - `align-items` — aligns items along the cross axis (`stretch`, `center`, `flex-start`, `flex-end`)
+  - `align-self` — overrides `align-items` for a single flex item
+  - `justify-content` — aligns items along the main axis (`center`, `flex-start`, `flex-end`, `space-between`, `space-around`)
+  - Rebuilt the entire product page layout using flexbox
 
 ## Project Status
 
@@ -90,6 +107,7 @@ A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low T
 ✅ CSS Box Model applied (padding, margin, borders, dimensions)  
 ✅ CSS Pseudo-elements applied  
 ✅ CSS Float Styling applied (layout restructured)  
+✅ CSS Flexbox applied (full layout rebuild)  
 ✅ Challenge completed — applied all concepts learned  
 ⏳ Responsive design (coming soon)  
 ⏳ JavaScript interactivity (future)
