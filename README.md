@@ -20,6 +20,7 @@ Here are the projects I have built during my journey:
 
 | Date       | Topic/Module                 | Key Concepts Learned                                                                 |
 | :--------- | :--------------------------- | :----------------------------------------------------------------------------------- |
+| 2026-09-22 | CSS Grid (Practice)          | Created a practice file inside Code Magazine to learn CSS Grid syntax; practiced `display: grid;`, `grid-template-columns`, `grid-template-rows`, `gap`, `column-gap`, `row-gap`, `fr` unit, `repeat()`, `grid-column`, `grid-row`, `grid-area`, `justify-items`, `align-items`, and alignment properties |
 | 2026-09-21 | CSS Flexbox (Product Page)   | Rebuilt the entire Product Page layout using flexbox; applied `display: flex;`, `flex-grow`, `flex-shrink`, `flex-basis`, `gap`, `align-items`, `align-self`, and `justify-content` (`center`, `flex-start`, `flex-end`, `space-between`, `space-around`) |
 | 2026-09-21 | CSS Flexbox                  | Applied `display: flex;` to Code Magazine layout; used `flex-grow`, `flex-shrink`, `flex-basis`, `gap`, `align-items`, `align-self`, and `justify-content` (`center`, `flex-start`, `flex-end`, `space-between`, `space-around`) to build flexible, responsive component layouts |
 | 2026-09-20 | Flexbox (Practice)           | Created a practice file inside Code Magazine to learn flexbox syntax basics before applying to the real project; experimenting with flex container properties |
