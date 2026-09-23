@@ -1,10 +1,10 @@
 # 👟 Product Page - Converse Chuck Taylor
 
-This is my second HTML project, now fully styled with CSS! Built as part of my web development learning journey, this project also served as a challenge to apply CSS Box Model concepts, pseudo-elements, float layouts, and flexbox.
+This is my second HTML project, now fully styled with CSS! Built as part of my web development learning journey, this project also served as a challenge to apply CSS Box Model concepts, pseudo-elements, float layouts, flexbox, and CSS Grid.
 
 ## Project Description
 
-A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low Top sneakers — now enhanced with custom CSS styling, interactive hover states, polished UI details, proper use of the CSS Box Model for layout and spacing, pseudo-elements for advanced styling, float layouts, and a full flexbox rebuild for modern layout control.
+A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low Top sneakers — now enhanced with custom CSS styling, interactive hover states, polished UI details, proper use of the CSS Box Model for layout and spacing, pseudo-elements for advanced styling, float layouts, a full flexbox rebuild, and a complete CSS Grid rebuild for precise two-dimensional layout control.
 
 ## Key Features
 
@@ -43,6 +43,15 @@ A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low T
   - `align-items`, `align-self` — cross-axis alignment
   - `justify-content` — main-axis alignment (`center`, `flex-start`, `flex-end`, `space-between`, `space-around`)
   - Rebuilt the entire product page layout using flexbox
+- **CSS Grid**:
+  - `display: grid;` — modern two-dimensional layout
+  - `grid-template-columns`, `grid-template-rows` — defining track structure
+  - `gap`, `row-gap`, `column-gap` — spacing between grid tracks
+  - `fr` unit — fractional space distribution
+  - `repeat()` — shorthand for repeating track patterns
+  - `grid-column`, `grid-row`, `grid-area` — placing items on the grid
+  - `justify-items`, `align-items` — alignment within grid cells
+  - Rebuilt the entire product page layout using CSS Grid
 - **Call-to-Action**: "Add to cart" button with hover interactivity
 
 ## Technologies Used
@@ -99,6 +108,17 @@ A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low T
   - `align-self` — overrides `align-items` for a single flex item
   - `justify-content` — aligns items along the main axis (`center`, `flex-start`, `flex-end`, `space-between`, `space-around`)
   - Rebuilt the entire product page layout using flexbox
+- **CSS Grid**:
+  - `display: grid;` — turns an element into a grid container for two-dimensional layouts
+  - `grid-template-columns` and `grid-template-rows` — define the track structure
+  - `gap`, `row-gap`, `column-gap` — space between grid tracks
+  - `fr` unit — fractional unit that divides available space
+  - `repeat()` — shorthand for repeating track patterns (e.g., `repeat(3, 1fr)`)
+  - `grid-column` and `grid-row` — placing items across specific tracks
+  - `grid-area` — shorthand for placing items in a named or numbered area
+  - `justify-items` — aligns grid items along the inline (row) axis
+  - `align-items` — aligns grid items along the block (column) axis
+  - Rebuilt the entire product page layout using CSS Grid
 
 ## Project Status
 
@@ -108,6 +128,7 @@ A clean, semantic HTML product page for the Converse Chuck Taylor All Star Low T
 ✅ CSS Pseudo-elements applied  
 ✅ CSS Float Styling applied (layout restructured)  
 ✅ CSS Flexbox applied (full layout rebuild)  
+✅ CSS Grid applied (full layout rebuild)  
 ✅ Challenge completed — applied all concepts learned  
 ⏳ Responsive design (coming soon)  
 ⏳ JavaScript interactivity (future)

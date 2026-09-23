@@ -14,12 +14,13 @@ Welcome to my coding log! This repository serves as a documentation of my journe
 Here are the projects I have built during my journey:
 
 - **[Code Magazine](code-magazine/)**: ✅ Completed - A semantic HTML structure project now fully styled with CSS (fonts, colors, typography, link states, body border, CSS Box Model, display property, positioning, pseudo-elements, float styling, box-sizing, flexbox, and CSS Grid).
-- **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers with HTML structure and CSS styling (button hover effects, list styling, borders, link states, `cursor: pointer`, CSS Box Model, display property, positioning, pseudo-elements, float styling, and a full flexbox rebuild).
+- **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers with HTML structure and CSS styling (button hover effects, list styling, borders, link states, `cursor: pointer`, CSS Box Model, display property, positioning, pseudo-elements, float styling, a full flexbox rebuild, and a full CSS Grid rebuild).
 
 ## 📅 Progress Log
 
 | Date       | Topic/Module                 | Key Concepts Learned                                                                 |
 | :--------- | :--------------------------- | :----------------------------------------------------------------------------------- |
+| 2026-09-22 | CSS Grid (Product Page)      | Rebuilt the entire Product Page layout using CSS Grid; applied `display: grid;`, `grid-template-columns`, `grid-template-rows`, `gap`, `column-gap`, `row-gap`, `fr` unit, `repeat()`, `grid-column`, `grid-row`, `grid-area`, `justify-items`, and `align-items` for precise two-dimensional layout control |
 | 2026-09-22 | CSS Grid (Code Magazine)     | Rebuilt the entire Code Magazine layout using CSS Grid; applied `display: grid;`, `grid-template-columns`, `grid-template-rows`, `gap`, `column-gap`, `row-gap`, `fr` unit, `repeat()`, `grid-column`, `grid-row`, `grid-area`, `justify-items`, and `align-items` for precise two-dimensional layout control |
 | 2026-09-22 | CSS Grid (Practice)          | Created a practice file inside Code Magazine to learn CSS Grid syntax; practiced `display: grid;`, `grid-template-columns`, `grid-template-rows`, `gap`, `column-gap`, `row-gap`, `fr` unit, `repeat()`, `grid-column`, `grid-row`, `grid-area`, `justify-items`, `align-items`, and alignment properties |
 | 2026-09-21 | CSS Flexbox (Product Page)   | Rebuilt the entire Product Page layout using flexbox; applied `display: flex;`, `flex-grow`, `flex-shrink`, `flex-basis`, `gap`, `align-items`, `align-self`, and `justify-content` (`center`, `flex-start`, `flex-end`, `space-between`, `space-around`) |
