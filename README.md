@@ -4,10 +4,10 @@ Welcome to my coding log! This repository serves as a documentation of my journe
 
 ## 🚀 Goals
 
-- [x] Master HTML5 & CSS3 ✅ (in progress)
-- [ ] Learn JavaScript fundamentals
+- [x] Master HTML5 & CSS3 ✅
+- [x] Build and deploy professional projects
 - [ ] Understand responsive web design
-- [ ] Build and deploy professional projects
+- [ ] Learn JavaScript
 
 ## 📂 Projects
 
@@ -15,11 +15,14 @@ Here are the projects I have built during my journey:
 
 - **[Code Magazine](code-magazine/)**: ✅ Completed - A semantic HTML structure project now fully styled with CSS (fonts, colors, typography, link states, body border, CSS Box Model, display property, positioning, pseudo-elements, float styling, box-sizing, flexbox, and CSS Grid).
 - **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers with HTML structure and CSS styling (button hover effects, list styling, borders, link states, `cursor: pointer`, CSS Box Model, display property, positioning, pseudo-elements, float styling, a full flexbox rebuild, and a full CSS Grid rebuild).
+- **[Furniture Page](furniture-page/)**: ✅ Completed - A design-focused landing page for a furniture brand, built to practice UI design (typography, color palettes, icons, white space, border radius, box shadows, and layout).
 
 ## 📅 Progress Log
 
 | Date       | Topic/Module                 | Key Concepts Learned                                                                 |
 | :--------- | :--------------------------- | :----------------------------------------------------------------------------------- |
+| 2026-09-24 | Furniture Page (Build)       | Completed a design-focused landing page; applied website personalities and ingredients — typography, color palettes, icons, white space, border radius, box shadows, and UI polish |
+| 2026-09-23 | Furniture Page (Start)       | Started a design-focused landing page from scratch; practicing UI design principles — typography, color palettes, iconography, and layout balance |
 | 2026-09-22 | CSS Grid (Product Page)      | Rebuilt the entire Product Page layout using CSS Grid; applied `display: grid;`, `grid-template-columns`, `grid-template-rows`, `gap`, `column-gap`, `row-gap`, `fr` unit, `repeat()`, `grid-column`, `grid-row`, `grid-area`, `justify-items`, and `align-items` for precise two-dimensional layout control |
 | 2026-09-22 | CSS Grid (Code Magazine)     | Rebuilt the entire Code Magazine layout using CSS Grid; applied `display: grid;`, `grid-template-columns`, `grid-template-rows`, `gap`, `column-gap`, `row-gap`, `fr` unit, `repeat()`, `grid-column`, `grid-row`, `grid-area`, `justify-items`, and `align-items` for precise two-dimensional layout control |
 | 2026-09-22 | CSS Grid (Practice)          | Created a practice file inside Code Magazine to learn CSS Grid syntax; practiced `display: grid;`, `grid-template-columns`, `grid-template-rows`, `gap`, `column-gap`, `row-gap`, `fr` unit, `repeat()`, `grid-column`, `grid-row`, `grid-area`, `justify-items`, `align-items`, and alignment properties |
@@ -50,6 +53,8 @@ Here are the projects I have built during my journey:
 
 ![Product Page Project](images/product-page-preview.png)
 
+![Furniture Page Project](furniture-page/images/furniture-page-preview.png)
+
 ## 🛠 Tech Stack
 
 - HTML5
@@ -70,7 +75,7 @@ If you want to open any of these projects on your own computer:
    - Extract the folder to your desktop
 
 2. **Open the project folder**  
-   - Navigate to the project you want to view (e.g., `code-magazine/` or `product-page/`)
+   - Navigate to the project you want to view (e.g., `code-magazine/`, `product-page/`, or `furniture-page/`)
 
 3. **Open the HTML file**  
    - Double-click `index.html` — it will open automatically in your web browser
