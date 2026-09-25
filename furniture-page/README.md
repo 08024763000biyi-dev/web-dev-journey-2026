@@ -4,7 +4,7 @@ A design-focused landing page for a furniture brand, built to practice UI design
 
 ## Project Description
 
-A simple landing page for a furniture brand, built from scratch as a design practice project. The goal was to apply my HTML and CSS skills to create a page that looks and feels like a real website — focusing on design principles rather than just functionality.
+A simple landing page for a furniture brand, built as a design practice project. The goal was to apply my HTML and CSS skills to create a page that looks and feels like a real website — focusing on design principles rather than just functionality.
 
 ## Design Focus
 

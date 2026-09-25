@@ -21,6 +21,7 @@ Here are the projects I have built during my journey:
 
 | Date       | Topic/Module                 | Key Concepts Learned                                                                 |
 | :--------- | :--------------------------- | :----------------------------------------------------------------------------------- |
+| 2026-09-25 | UI Components (Accordion)    | Built a reusable accordion component using HTML and CSS — expand/collapse content sections with smooth transitions |
 | 2026-09-24 | Furniture Page (Build)       | Completed a design-focused landing page; applied website personalities and ingredients — typography, color palettes, icons, white space, border radius, box shadows, and UI polish |
 | 2026-09-23 | Furniture Page (Start)       | Started a design-focused landing page from scratch; practicing UI design principles — typography, color palettes, iconography, and layout balance |
 | 2026-09-22 | CSS Grid (Product Page)      | Rebuilt the entire Product Page layout using CSS Grid; applied `display: grid;`, `grid-template-columns`, `grid-template-rows`, `gap`, `column-gap`, `row-gap`, `fr` unit, `repeat()`, `grid-column`, `grid-row`, `grid-area`, `justify-items`, and `align-items` for precise two-dimensional layout control |
