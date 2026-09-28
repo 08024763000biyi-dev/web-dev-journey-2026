@@ -20,7 +20,7 @@ Each component is self-contained with its own HTML and CSS.
 
 ### Table
 
-*(Preview coming soon)*
+![Table Preview](table/images/table-page-preview.png)
 
 ### Pagination
 

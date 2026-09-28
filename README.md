@@ -21,6 +21,7 @@ Here are the projects I have built during my journey:
 
 | Date       | Topic/Module                 | Key Concepts Learned                                                                 |
 | :--------- | :--------------------------- | :----------------------------------------------------------------------------------- |
+| 2026-09-27 | UI Components (Table)        | Built a reusable table component using HTML and CSS — structured data display with proper styling and layout |
 | 2026-09-27 | UI Components (Carousel)     | Built a reusable carousel component using HTML and CSS — sliding image/content gallery with smooth transitions |
 | 2026-09-25 | UI Components (Accordion)    | Built a reusable accordion component using HTML and CSS — expand/collapse content sections with smooth transitions |
 | 2026-09-24 | Furniture Page (Build)       | Completed a design-focused landing page; applied website personalities and ingredients — typography, color palettes, icons, white space, border radius, box shadows, and UI polish |
