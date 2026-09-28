@@ -16,7 +16,7 @@ Each component is self-contained with its own HTML and CSS.
 
 ### Carousel
 
-*(Preview coming soon)*
+![Carousel Preview](carousel/images/carousel-page-preview.png)
 
 ### Table
 
