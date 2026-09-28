@@ -24,7 +24,7 @@ Each component is self-contained with its own HTML and CSS.
 
 ### Pagination
 
-*(Preview coming soon)*
+![Pagination Preview](pagination/images/pagination-page-preview.png)
 
 ### Hero Section
 
