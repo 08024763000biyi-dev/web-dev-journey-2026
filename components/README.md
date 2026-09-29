@@ -28,7 +28,7 @@ Each component is self-contained with its own HTML and CSS.
 
 ### Hero Section
 
-*(Preview coming soon)*
+![Hero Section Preview](hero-section/images/hero-section-page-preview.png)
 
 ### Web App Layout
 
