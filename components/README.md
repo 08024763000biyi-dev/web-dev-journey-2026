@@ -32,7 +32,7 @@ Each component is self-contained with its own HTML and CSS.
 
 ### Web App Layout
 
-*(Preview coming soon)*
+![Web App Layout Preview](web-app-layout/images/web-app-layout-page-preview.png)
 
 ## 🛠 Built With
 
