@@ -5,8 +5,8 @@ Welcome to my coding log! This repository serves as a documentation of my journe
 ## 🚀 Goals
 
 - [x] Master HTML5 & CSS3 ✅
+- [x] Understand and build responsive web design ✅
 - [x] Build and deploy professional projects
-- [ ] Understand responsive web design
 - [ ] Learn JavaScript
 
 ## 📂 Projects
@@ -22,7 +22,8 @@ Here are the projects I have built during my journey:
 
 | Date       | Topic/Module                     | Key Concepts Learned                                                                                                                                                                                                                                                                                                                                                                                           |
 | :--------- | :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-10-14 | Omnifood (Desktop Build) | Built the desktop version of a full food delivery landing page — sticky nav, hero, featured-in logos, 3-step process, meal showcase, testimonials, pricing tables, and lead-capture CTA |
+| 2026-10-19 | Omnifood (Responsive)            | Made the entire Omnifood landing page responsive using media queries, fluid layouts, and mobile-first design principles                                                                                                                                                                                                                                                                                        |
+| 2026-10-14 | Omnifood (Desktop Build)         | Built the desktop version of a full food delivery landing page — sticky nav, hero, featured-in logos, 3-step process, meal showcase, testimonials, pricing tables, and lead-capture CTA                                                                                                                                                                                                                        |
 | 2026-09-30 | UI Components (Web App Layout)   | Built a reusable email-client web app layout — fixed nav sidebar, action toolbar, scrollable email list, main email view, and info panel using CSS Grid                                                                                                                                                                                                                                                        |
 | 2026-09-29 | UI Components (Hero Section)     | Built a reusable hero section component using HTML and CSS — large top-of-page banner layout                                                                                                                                                                                                                                                                                                                   |
 | 2026-09-28 | UI Components (Pagination)       | Built a reusable pagination component (Challenge #1) using HTML and CSS — page navigation with active states and hover effects                                                                                                                                                                                                                                                                                 |
@@ -67,7 +68,7 @@ Here are the projects I have built during my journey:
 
 - HTML5
 - CSS3
-- JavaScript _(coming soon)_
+- JavaScript *(coming soon)*
 
 ## 🔗 Live Portfolio
 
@@ -77,15 +78,15 @@ My deployed projects will be listed here.
 
 If you want to open any of these projects on your own computer:
 
-1. **Download the repository**
-   - Click the green **"Code"** button on GitHub
-   - Select **"Download ZIP"**
+1. **Download the repository**  
+   - Click the green **"Code"** button on GitHub  
+   - Select **"Download ZIP"**  
    - Extract the folder to your desktop
 
-2. **Open the project folder**
+2. **Open the project folder**  
    - Navigate to the project you want to view (e.g., `code-magazine/`, `product-page/`, or `furniture-page/`)
 
-3. **Open the HTML file**
+3. **Open the HTML file**  
    - Double-click `index.html` — it will open automatically in your web browser
 
 That's it! No special software or commands needed.

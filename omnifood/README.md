@@ -9,8 +9,8 @@ Omnifood is a conversion-focused landing page for a healthy meal delivery servic
 ## Project Status
 
 ✅ Desktop version complete  
-⏳ Responsive design (in progress)  
-⏳ Effects, optimizations & deployment (upcoming)
+✅ Responsive design complete  
+⏳ Effects, optimizations & deployment (in progress)
 
 ## Sections
 
