@@ -6,13 +6,14 @@ Welcome to my coding log! This repository serves as a documentation of my journe
 
 - [x] Master HTML5 & CSS3 ✅
 - [x] Understand and build responsive web design ✅
-- [x] Build and deploy professional projects
+- [x] Build and deploy professional projects ✅
 - [ ] Learn JavaScript
 
 ## 📂 Projects
 
 Here are the projects I have built during my journey:
 
+- **[Omnifood](omnifood/)**: ✅ Completed - A fully responsive, AI-powered food delivery landing page built as the capstone project of my HTML & CSS course. Features a sticky navigation with smooth scrolling, hero section, social proof logos, a 3-step process, interactive meal showcases, testimonials, pricing tables, and a lead-capture form. Built using semantic HTML, modern CSS (Flexbox & Grid), mobile-first media queries, and basic JavaScript for interactivity. Optimized for production and deployed live to Netlify.
 - **[Code Magazine](code-magazine/)**: ✅ Completed - A semantic HTML structure project now fully styled with CSS (fonts, colors, typography, link states, body border, CSS Box Model, display property, positioning, pseudo-elements, float styling, box-sizing, flexbox, and CSS Grid).
 - **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers with HTML structure and CSS styling (button hover effects, list styling, borders, link states, `cursor: pointer`, CSS Box Model, display property, positioning, pseudo-elements, float styling, a full flexbox rebuild, and a full CSS Grid rebuild).
 - **[Furniture Page](furniture-page/)**: ✅ Completed - A design-focused landing page for a furniture brand, built to practice UI design (typography, color palettes, icons, white space, border radius, box shadows, and layout).
@@ -22,6 +23,7 @@ Here are the projects I have built during my journey:
 
 | Date       | Topic/Module                     | Key Concepts Learned                                                                                                                                                                                                                                                                                                                                                                                           |
 | :--------- | :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-10-20 | Omnifood (Deployment)            | 🏁 **Milestone:** Completed the full Omnifood project! Optimized the build, added basic JS interactivity, deployed the live site to Netlify, and officially wrapped up the entire HTML & CSS phase of my journey.                                                                                                                                                                                     |
 | 2026-10-19 | Omnifood (Responsive)            | Made the entire Omnifood landing page responsive using media queries, fluid layouts, and mobile-first design principles                                                                                                                                                                                                                                                                                        |
 | 2026-10-14 | Omnifood (Desktop Build)         | Built the desktop version of a full food delivery landing page — sticky nav, hero, featured-in logos, 3-step process, meal showcase, testimonials, pricing tables, and lead-capture CTA                                                                                                                                                                                                                        |
 | 2026-09-30 | UI Components (Web App Layout)   | Built a reusable email-client web app layout — fixed nav sidebar, action toolbar, scrollable email list, main email view, and info panel using CSS Grid                                                                                                                                                                                                                                                        |
@@ -58,6 +60,8 @@ Here are the projects I have built during my journey:
 
 ## 🖼️ Project Previews
 
+![Omnifood Project](omnifood/images/omnifood-hero-preview.png)
+
 ![Code Magazine Project](images/code-magazine-preview.png)
 
 ![Product Page Project](images/product-page-preview.png)
@@ -68,11 +72,13 @@ Here are the projects I have built during my journey:
 
 - HTML5
 - CSS3
-- JavaScript *(coming soon)*
+- JavaScript (basic interactivity)
 
 ## 🔗 Live Portfolio
 
-My deployed projects will be listed here.
+Here are my deployed projects:
+
+- **[Omnifood](https://omnifood-build-israel.netlify.app)** - Fully responsive food delivery landing page
 
 ## 📁 How to View These Projects
 

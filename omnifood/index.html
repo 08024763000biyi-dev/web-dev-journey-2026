@@ -2,7 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per yaer. It's tailored to your personal taste and nutritional needs."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,10 +19,18 @@
       rel="stylesheet"
     />
 
+    <script
+      defer
+      src=" https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <script defer src="script.js"></script>
+
     <link rel="stylesheet" href="style.css" />
 
-    <title>Omnifood</title>
+    <title>Omnifood &mdash; Never cook again</title>
   </head>
+
   <body>
     <header class="header">
       <a href="#">
@@ -23,12 +39,14 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How it works</a></li>
-          <li><a class="main-nav-link" href href="#">Meals</a></li>
-          <li><a class="main-nav-link" href href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href href="#">Pricing</a></li>
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
           <li>
-            <a class="main-nav-link nav-cta" href href="#">Try for free</a>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#cta">Try for free</a>
           </li>
         </ul>
       </nav>
@@ -51,10 +69,10 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs. We have delivered 250,000+ meals last year!
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm"
               >Start eating well</a
             >
-            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
 
             <div class="delivered-meals">
               <div class="delivered-imgs">
@@ -94,11 +112,16 @@
           </div>
 
           <div class="hero-img-box">
-            <img
-              src="images/hero.png"
-              alt="a woman enjoying food, meals in storage container, and food bowls on a table"
-              class="hero-img"
-            />
+            <picture>
+              <source srcset="images/hero.webp" type="image/webp" />
+              <source srcset="images/hero-min.png" type="image/png" />
+
+              <img
+                src="images/hero-min.png"
+                alt="a woman enjoying food, meals in storage container, and food bowls on a table"
+                class="hero-img"
+              />
+            </picture>
           </div>
         </div>
       </section>
@@ -122,7 +145,7 @@
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
@@ -193,7 +216,7 @@
         </div>
       </section>
 
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container center-text">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">
@@ -313,7 +336,7 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">Once you try it, you can't go back</h2>
@@ -462,7 +485,7 @@
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -497,7 +520,7 @@
             </ul>
 
             <div class="plan-sign-up">
-              <a href="#" class="btn btn--full">Start eating well</a>
+              <a href="#cta" class="btn btn--full">Start eating well</a>
             </div>
           </div>
 
@@ -528,7 +551,7 @@
             </ul>
 
             <div class="plan-sign-up">
-              <a href="#" class="btn btn--full">Start eating well</a>
+              <a href="#cta" class="btn btn--full">Start eating well</a>
             </div>
           </div>
         </div>
@@ -579,7 +602,7 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -590,13 +613,14 @@
                 first meal is on us!
               </p>
 
-              <form class="cta-form" action="#">
+              <form class="cta-form" name="sign-up" method="POST" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
                     id="full-name"
                     type="text"
                     placeholder="John Smith"
+                    name="full-name"
                     required
                   />
                 </div>
@@ -607,13 +631,14 @@
                     id="email"
                     type="email"
                     placeholder="me@example.com"
+                    name="email"
                     required
                   />
                 </div>
 
                 <div>
                   <label for="select-where">Where did you hear from us</label>
-                  <select name="#" id="select-where" required>
+                  <select name="select-where" id="select-where" required>
                     <option value="">Please choose one option</option>
                     <option value="friends">Friends and family</option>
                     <option value="youtube">Youtube Video</option>
@@ -669,7 +694,8 @@
           </ul>
 
           <p class="copyright">
-            Copyright &copy; 2027 by Omnifood, Inc. All rights reserved
+            Copyright &copy; <span class="year">2027</span> by Omnifood, Inc.
+            All rights reserved
           </p>
         </div>
 

@@ -6,11 +6,15 @@ A modern landing page for a fictional AI-powered meal subscription service — b
 
 Omnifood is a conversion-focused landing page for a healthy meal delivery service. Built from scratch with semantic HTML and modern CSS, it covers real-world landing page structure: sticky navigation, hero section, social proof, step-by-step process, meal showcase, testimonials, pricing, and a lead-capture CTA.
 
+## 🚀 Live Demo
+
+👉 **[View the live Omnifood site here](https://omnifood-build-israel.netlify.app)**
+
 ## Project Status
 
 ✅ Desktop version complete  
 ✅ Responsive design complete  
-⏳ Effects, optimizations & deployment (in progress)
+✅ Effects, optimizations & deployment complete
 
 ## Sections
 
@@ -28,6 +32,7 @@ Omnifood is a conversion-focused landing page for a healthy meal delivery servic
 
 - HTML5
 - CSS3
+- JavaScript (basic interactivity & smooth scrolling)
 
 ## What I Learned
 
@@ -37,15 +42,16 @@ Omnifood is a conversion-focused landing page for a healthy meal delivery servic
 - Applying design principles — typography, spacing, color, visual hierarchy
 - Building real-world UI patterns: sticky nav, hero, pricing tables, testimonial grids, CTA forms
 - Working with alternating layouts and image galleries
+- Adding basic interactivity with JavaScript (mobile navigation toggle, smooth scrolling)
+- Optimizing images and code for production
+- Deploying a live website to Netlify
 
 ## 🖼️ Project Preview
 
-*(Final preview coming soon — after responsive design and deployment)*
+![Omnifood Preview](images/omnifood-hero-preview.png)
 
-## How to View
+## How to View Locally
 
 1. Download or clone this repository
 2. Navigate to the `omnifood/` folder
 3. Double-click `index.html` — it will open in your browser
-
-No special software or commands needed.
