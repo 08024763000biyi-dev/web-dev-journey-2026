@@ -7,6 +7,7 @@ Welcome to my coding log! This repository serves as a documentation of my journe
 - [x] Master HTML5 & CSS3 ✅
 - [x] Understand and build responsive web design ✅
 - [x] Build and deploy professional projects ✅
+- [ ] Learn CSS Frameworks (Tailwind CSS) *(2-week sprint)*
 - [ ] Learn JavaScript
 
 ## 📂 Projects
@@ -23,6 +24,7 @@ Here are the projects I have built during my journey:
 
 | Date       | Topic/Module                     | Key Concepts Learned                                                                                                                                                                                                                                                                                                                                                                                           |
 | :--------- | :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-10-22 | Tailwind CSS (Environment Setup) | Set up a modern front-end environment using Node.js, npm, and Vite; installed and configured Tailwind CSS; wrote my first utility classes (`text-teal-600`, `text-5xl`, `underline`)                                                                                                                                                                                                                           |
 | 2026-10-20 | Omnifood (Deployment)            | 🏁 **Milestone:** Completed the full Omnifood project! Optimized the build, added basic JS interactivity, deployed the live site to Netlify, and officially wrapped up the entire HTML & CSS phase of my journey.                                                                                                                                                                                     |
 | 2026-10-19 | Omnifood (Responsive)            | Made the entire Omnifood landing page responsive using media queries, fluid layouts, and mobile-first design principles                                                                                                                                                                                                                                                                                        |
 | 2026-10-14 | Omnifood (Desktop Build)         | Built the desktop version of a full food delivery landing page — sticky nav, hero, featured-in logos, 3-step process, meal showcase, testimonials, pricing tables, and lead-capture CTA                                                                                                                                                                                                                        |
@@ -72,6 +74,7 @@ Here are the projects I have built during my journey:
 
 - HTML5
 - CSS3
+- Tailwind CSS *(in progress)*
 - JavaScript (basic interactivity)
 
 ## 🔗 Live Portfolio
