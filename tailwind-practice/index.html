@@ -10,6 +10,334 @@
     <h1 class="m-8 text-4xl font-bold text-teal-600 underline">
       Hello Tailwind
     </h1>
+
+    <!-- HOW TAILWIND WORKS -->
+    <article class="bg-gray-100 py-8 font-sans mb-8">
+      <div class="max-w-72 mx-auto rounded-xl overflow-hidden">
+        <header class="bg-blue-100 text-blue-700 px-5 py-4 text-sm font-medium">
+          Notice
+        </header>
+        <div class="bg-white p-5 space-y-1">
+          <h2 class="text-gray-900 text-lg font-semibold">Payment received</h2>
+          <p class="text-gray-600 mb-4">Your order is now being prepared</p>
+          <div
+            class="bg-amber-100 text-amber-800 text-sm text-left font-medium rounded-lg p-3"
+          >
+            Delivery takes 3 to 5 days.
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- SPACING -->
+    <article class="bg-gray-100 py-8 font-sans mb-8">
+      <div class="bg-white max-w-sm mx-auto p-5 rounded-xl">
+        <div class="bg-gray-200 h-32 rounded-lg"></div>
+        <div class="bg-gray-200 size-12 rounded-full my-4"></div>
+        <div class="bg-gray-200 w-3/4 h-4 rounded-sm mb-2"></div>
+        <div class="bg-gray-200 w-1/2 h-4 rounded-sm mb-5"></div>
+        <div class="bg-gray-200 h-2 rounded-full">
+          <div class="bg-blue-500 h-2 rounded-full w-2/3"></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- TYPOGRAPHY -->
+    <article class="bg-gray-100 font-sans py-8 mb-8">
+      <div class="bg-white max-w-md mx-auto rounded-xl p-6">
+        <span
+          class="transform uppercase text-blue-600 text-xs font-semibold inline-block mb-2 tracking-wider"
+          >Featured</span
+        >
+        <h2 class="text-gray-900 text-3xl font-bold mb-3">
+          How to build your first design system
+        </h2>
+        <p class="text-gray-600 mb-4">
+          Start small. A handful of colors, one type scale and a spacing rule
+          will carry you further than a giant library nobody uses.
+        </p>
+        <p class="text-gray-500 text-sm mb-2">5 min read</p>
+        <a href="#" class="text-blue-600 text-xs font-semibold block mb-6"
+          >https://example.com/blog/how-to-build-your-first-design-s...</a
+        >
+        <footer class="text-center">
+          <small class="text-gray-400 text-xs font-medium"
+            >&copy; 2026 Studio</small
+          >
+        </footer>
+      </div>
+    </article>
+
+    <!-- COLORS -->
+    <article class="py-8 mb-8 font-sans bg-gray-100">
+      <div class="max-w-sm mx-auto">
+        <div class="bg-indigo-600 p-6 rounded-xl mb-4">
+          <span
+            class="bg-gray-100/30 inline-block w-fill rounded-full py-1 px-3 text-white text-xs font-semibold mb-3"
+            >New</span
+          >
+          <h2 class="text-white text-xl font-bold mb-1">Upgrade your plan</h2>
+          <p class="text-gray-200 text-sm font-medium mb-5">
+            Get unlimited projects and priority support.
+          </p>
+          <button
+            class="text-indigo-700 cursor-pointer text-sm font-semibold rounded-lg py-2 pl-4 pr-14 bg-white"
+          >
+            Upgrade now
+          </button>
+        </div>
+
+        <div class="space-y-2">
+          <div
+            class="bg-green-100/70 text-green-800 text-sm font-medium p-3 rounded-lg"
+          >
+            Payment received
+          </div>
+          <div
+            class="bg-amber-100/70 text-amber-800 text-sm font-medium p-3 rounded-lg"
+          >
+            Card expires soon
+          </div>
+          <div
+            class="bg-red-100/70 text-red-800 text-sm font-medium p-3 rounded-lg mb-4"
+          >
+            Payment failed
+          </div>
+        </div>
+
+        <div class="bg-gray-900 py-4 pl-5 rounded-lg">
+          <h3 class="text-white text-sm font-semibold mb-1.5">
+            Deploy finished
+          </h3>
+          <p class="text-gray-400 text-xs font-medium">
+            Build completed in 42 seconds
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <!-- BORDERS, RADIUS, SHADOWS, RINGS AND OUTLINE -->
+    <article class="bg-gray-100 py-8 mb-8">
+      <div class="max-w-xs mx-auto">
+        <div class="bg-white p-6 rounded-2xl mb-6 shadow-lg">
+          <h3
+            class="text-sm text-blue-700 bg-blue-100/50 py-1 px-2 inline-block mb-2 rounded-full border border-blue-200"
+          >
+            Pro plan
+          </h3>
+          <p>
+            <strong class="text-4xl font-bold"> &dollar;29 </strong>
+            <span class="text-base text-gray-500 font-normal">/month</span>
+          </p>
+          <div class="border-b border-b-gray-200 pb-4 mb-4"></div>
+          <ul class="space-y-2 mb-4 text-gray-500 text-sm font-medium">
+            <li>Unlimited projects</li>
+            <li>Priority support</li>
+            <li>Custom domain</li>
+          </ul>
+          <div class="p-1">
+            <button
+              class="bg-blue-600 cursor-pointer text-white text-sm font-semibold py-2 w-full rounded-lg ring-2 ring-blue-300 ring-offset-2"
+            >
+              Choose plan
+            </button>
+          </div>
+        </div>
+
+        <input
+          class="bg-white w-full py-1 mb-6 rounded-lg border border-blue-500 ring-2 ring-blue-200 pl-3 placeholder:text-gray-500 text-sm"
+          type="email"
+          placeholder="you@example.com"
+          required
+        />
+
+        <div
+          class="rounded-xl border-2 border-dashed border-gray-300 text-gray-600 p-6 mb-6 text-center text-sm"
+        >
+          Drop a file here
+        </div>
+
+        <button
+          class="bg-white cursor-pointer p-1.5 px-3 rounded-lg outline-2 outline-indigo-500 outline-offset-2"
+        >
+          Selected
+        </button>
+      </div>
+    </article>
+
+    <!-- FLEX -->
+    <article class="bg-gray-100 py-8 mb-8">
+      <div class="bg-white p-5 max-w-md mx-auto rounded-xl">
+        <header class="flex items-center justify-between mb-5">
+          <div class="flex gap-2 items-center">
+            <span class="bg-indigo-600 p-4 inline-block rounded-lg"></span>
+            <p class="font-medium">Acme</p>
+          </div>
+          <button
+            class="bg-gray-900 cursor-pointer text-white text-sm font-medium py-2 px-4 rounded-lg"
+          >
+            Sign in
+          </button>
+        </header>
+
+        <div class="flex items-center justify-between mb-4">
+          <div class="flex gap-3">
+            <span class="bg-blue-200 inline-block p-6 rounded-full"></span>
+            <div>
+              <h2 class="font-semibold -mb-0.5">Maya Chen</h2>
+              <p class="text-sm text-gray-700">Product designer</p>
+            </div>
+          </div>
+          <button class="border cursor-pointer border-gray-300 py-1.5 px-3 rounded-lg">
+            Follow
+          </button>
+        </div>
+
+        <ul class="flex flex-wrap gap-2 mb-5">
+          <li class="bg-gray-100 text-xs py-1.5 px-3 rounded-full">Design</li>
+          <li class="bg-gray-100 text-xs py-1.5 px-3 rounded-full">Research</li>
+          <li class="bg-gray-100 text-xs py-1.5 px-3 rounded-full">
+            Prototyping
+          </li>
+          <li class="bg-gray-100 text-xs py-1.5 px-3 rounded-full">
+            Accessibility
+          </li>
+          <li class="bg-gray-100 text-xs py-1.5 px-3 rounded-full">
+            Typography
+          </li>
+          <li class="bg-gray-100 text-xs py-1.5 px-3 rounded-full">Branding</li>
+        </ul>
+
+        <ul class="flex gap-3 mb-8">
+          <li
+            class="bg-gray-100 flex flex-1 flex-col py-3 px-3 rounded-lg text-center"
+          >
+            <span class="-mb-0.5 text-xl font-bold">128</span>
+            <span class="text-xs text-gray-500 font-medium">Posts</span>
+          </li>
+          <li
+            class="bg-gray-100 flex flex-1 flex-col py-3 px-3 rounded-lg text-center"
+          >
+            <span class="-mb-0.5 text-xl font-bold">4.2k</span>
+            <span class="text-xs text-gray-500 font-medium">Followers</span>
+          </li>
+          <li
+            class="bg-gray-100 flex flex-1 flex-col py-3 px-3 rounded-lg text-center"
+          >
+            <span class="-mb-0.5 text-xl font-bold">310</span>
+            <span class="text-xs text-gray-500 font-medium">Following</span>
+          </li>
+        </ul>
+
+        <div class="bg-blue-50 py-8 rounded-lg text-center flex flex-col">
+          <span class="text-sm font-semibold text-indigo-600">Centered</span>
+          <span class="text-xs text-indigo-600">in both directions</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- GRID -->
+    <section class="bg-gray-100 py-8 mb-8">
+      <div
+        class="bg-white max-w-lg mx-auto p-4 rounded-xl grid grid-cols-2 gap-3"
+      >
+        <div class="bg-indigo-600 rounded-xl p-4">
+          <p class="text-gray-100 mb-1">Revenue</p>
+          <h3 class="text-white text-3xl font-bold mb-1">&dollar;12.4k</h3>
+          <span class="text-gray-200 text-xs">+8% this month</span>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div class="bg-gray-100 rounded-xl p-4 col-span-2">
+            <p class="text-xs text-gray-600">Users</p>
+            <h3 class="text-xl font-bold">8,214</h3>
+          </div>
+
+          <div class="bg-gray-100 rounded-xl p-4">
+            <p class="text-xs text-gray-600">Orders</p>
+            <h3 class="text-xl font-bold">342</h3>
+          </div>
+          <div class="bg-gray-100 rounded-xl p-4">
+            <p class="text-xs text-gray-600">Refunds</p>
+            <h3 class="text-xl font-bold">12</h3>
+          </div>
+        </div>
+
+        <div
+          class="bg-blue-50 col-span-2 rounded-xl text-center text-sm font-medium text-blue-700 p-5"
+        >
+          Recent activity
+        </div>
+      </div>
+    </section>
+
+    <!-- POSITION -->
+    <article class="bg-gray-100 py-8 mb-8">
+      <div class="max-w-xs mx-auto rounded-2xl overflow-hidden shadow-lg">
+        <div class="bg-blue-200 h-48 relative">
+          <span
+            class="bg-red-500 rounded-full text-xs py-1 px-2 font-semibold text-white absolute left-3 top-3"
+            >-20%</span
+          >
+          <span class="bg-white text-xs p-2 rounded-full absolute right-3 top-3"
+            >🖤</span
+          >
+
+          <div
+            class="bg-black/50 text-xs font-medium p-2 pl-3 text-white absolute bottom-0 inset-x-0"
+          >
+            Only 3 left in stock
+          </div>
+        </div>
+
+        <div class="bg-white p-4">
+          <p class="font-semibold mb-1">Ceramic mug</p>
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="font-bold text-lg">&dollar;18</h2>
+            <p class="text-sm text-gray-500">was &dollar;22</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="relative bg-indigo-200 size-10 rounded-full">
+              <div
+                class="bg-green-500 size-3 rounded-full absolute -right-0.5 ring-2 ring-white"
+              ></div>
+            </div>
+            <p class="text-sm text-gray-700">Sold by Maya</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- PREFIXES -->
+    <section>
+      <div class="max-w-5xl mx-auto bg-gray-100 p-6 rounded-xl">
+        <header class="text-center mb-5">
+          <h2 class="text-2xl md:text-3xl font-bold mb-1">Pick a plan</h2>
+          <p class="text-xs md:text-sm text-gray-500">Cancel any time.</p>
+        </header>
+        <div class="grid grid-cols-1 gap-3 md:grid-cols-3">
+          <article class="bg-white rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow ease-out duration-300">
+            <h3 class="text-xs font-bold mb-0.5">Starter</h3>
+            <strong class="text-xl inline-block mb-1">&dollar;9</strong>
+            <p class="text-xs text-gray-500 mb-2">2 projects</p>
+            <button class="bg-indigo-600 cursor-pointer text-sm font-semibold text-white rounded-lg p-2 w-full hover:bg-blue-700 transition duration-300 ease-out">Choose</button>
+          </article>
+          <article class="bg-white rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow ease-out duration-300 ring-2 ring-indigo-600">
+            <h3 class="text-xs font-bold mb-0.5">Pro</h3>
+            <strong class="text-xl inline-block mb-1">&dollar;29</strong>
+            <p class="text-xs text-gray-500 mb-2">Unlimited projects</p>
+            <button class="bg-indigo-600 cursor-pointer text-sm font-semibold text-white rounded-lg p-2 w-full hover:bg-blue-700 transition duration-300 ease-out">Choose</button>
+          </article>
+          <article class="bg-white rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow ease-out duration-300">
+            <h3 class="text-xs font-bold mb-0.5">Team</h3>
+            <strong class="text-xl inline-block mb-1">&dollar;79</strong>
+            <p class="text-xs text-gray-500 mb-2">10 seats</p>
+            <button class="bg-indigo-600 cursor-pointer text-sm font-semibold text-white rounded-lg p-2 w-full hover:bg-blue-700 transition duration-300 ease-out">Choose</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

@@ -7,7 +7,7 @@ Welcome to my coding log! This repository serves as a documentation of my journe
 - [x] Master HTML5 & CSS3 ✅
 - [x] Understand and build responsive web design ✅
 - [x] Build and deploy professional projects ✅
-- [ ] Learn CSS Frameworks (Tailwind CSS) *(2-week sprint)*
+- [x] Learn CSS Frameworks (Tailwind CSS) ✅
 - [ ] Learn JavaScript
 
 ## 📂 Projects
@@ -19,11 +19,13 @@ Here are the projects I have built during my journey:
 - **[Product Page](product-page/)**: ✅ Completed - A product page for Converse Chuck Taylor sneakers with HTML structure and CSS styling (button hover effects, list styling, borders, link states, `cursor: pointer`, CSS Box Model, display property, positioning, pseudo-elements, float styling, a full flexbox rebuild, and a full CSS Grid rebuild).
 - **[Furniture Page](furniture-page/)**: ✅ Completed - A design-focused landing page for a furniture brand, built to practice UI design (typography, color palettes, icons, white space, border radius, box shadows, and layout).
 - **[UI Components](components/)**: ✅ Completed - A collection of reusable UI components (accordion, carousel, table, pagination, hero section, web app layout).
+- **[Tailwind Practice](tailwind-practice/)**: 🚧 In Progress - A dedicated practice folder for mastering Tailwind CSS v4 utility classes, layout techniques, and building various UI elements.
 
 ## 📅 Progress Log
 
 | Date       | Topic/Module                     | Key Concepts Learned                                                                                                                                                                                                                                                                                                                                                                                           |
 | :--------- | :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-11-10 | Tailwind CSS (Practice)          | Built various UI components (profile cards, pricing cards, forms, avatars) using Tailwind v4 utility classes, flexbox, and positioning. Paused to transition to JavaScript.                                                                                                                                                                                                            |
 | 2026-10-22 | Tailwind CSS (Environment Setup) | Set up a modern front-end environment using Node.js, npm, and Vite; installed and configured Tailwind CSS; wrote my first utility classes (`text-teal-600`, `text-5xl`, `underline`)                                                                                                                                                                                                                           |
 | 2026-10-20 | Omnifood (Deployment)            | 🏁 **Milestone:** Completed the full Omnifood project! Optimized the build, added basic JS interactivity, deployed the live site to Netlify, and officially wrapped up the entire HTML & CSS phase of my journey.                                                                                                                                                                                     |
 | 2026-10-19 | Omnifood (Responsive)            | Made the entire Omnifood landing page responsive using media queries, fluid layouts, and mobile-first design principles                                                                                                                                                                                                                                                                                        |
@@ -74,7 +76,7 @@ Here are the projects I have built during my journey:
 
 - HTML5
 - CSS3
-- Tailwind CSS *(in progress)*
+- Tailwind CSS
 - JavaScript (basic interactivity)
 
 ## 🔗 Live Portfolio
