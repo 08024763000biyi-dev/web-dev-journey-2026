@@ -8,7 +8,7 @@ Welcome to my coding log! This repository serves as a documentation of my journe
 - [x] Understand and build responsive web design ✅
 - [x] Build and deploy professional projects ✅
 - [x] Learn CSS Frameworks (Tailwind CSS) ✅
-- [ ] Learn JavaScript _(in progress)_
+- [ ] Learn JavaScript *(in progress)*
 
 ## 📂 Projects
 
@@ -25,6 +25,7 @@ Here are the projects I have built during my journey:
 
 | Date       | Topic/Module                     | Key Concepts Learned                                                                                                                                                                                                                                                                                                                                                                                           |
 | :--------- | :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-11-18 | JavaScript (Fundamentals Part 1) | Completed core JS basics: variables, data types, operators, template literals, `if/else`, `switch`, ternary operators, type coercion, truthy/falsy, and strict equality (`===`). Completed multiple coding challenges and assignments.                                                                                                                                                                          |
 | 2026-11-13 | JavaScript (Fundamentals)        | Started the JS course; wrote my first script using `let`, `if` statements, `alert()`, and basic math inside `console.log()`                                                                                                                                                                                                                                                                                    |
 | 2026-11-10 | Tailwind CSS (Practice)          | Built various UI components (profile cards, pricing cards, forms, avatars) using Tailwind v4 utility classes, flexbox, and positioning. Paused to transition to JavaScript.                                                                                                                                                                                                                                    |
 | 2026-10-22 | Tailwind CSS (Environment Setup) | Set up a modern front-end environment using Node.js, npm, and Vite; installed and configured Tailwind CSS; wrote my first utility classes (`text-teal-600`, `text-5xl`, `underline`)                                                                                                                                                                                                                           |
@@ -90,15 +91,15 @@ Here are my deployed projects:
 
 If you want to open any of these projects on your own computer:
 
-1. **Download the repository**
-   - Click the green **"Code"** button on GitHub
-   - Select **"Download ZIP"**
+1. **Download the repository**  
+   - Click the green **"Code"** button on GitHub  
+   - Select **"Download ZIP"**  
    - Extract the folder to your desktop
 
-2. **Open the project folder**
+2. **Open the project folder**  
    - Navigate to the project you want to view (e.g., `code-magazine/`, `product-page/`, or `furniture-page/`)
 
-3. **Open the HTML file**
+3. **Open the HTML file**  
    - Double-click `index.html` — it will open automatically in your web browser
 
 That's it! No special software or commands needed.
